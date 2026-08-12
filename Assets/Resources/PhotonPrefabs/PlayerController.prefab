@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 8206792213635113911}
   - component: {fileID: 2169734656881812906}
   - component: {fileID: 7668975407453671009}
+  - component: {fileID: 5513925963270954131}
+  - component: {fileID: 1312572813245086253}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -84,7 +86,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &7668975407453671009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -102,6 +104,32 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
+--- !u!114 &5513925963270954131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040570045036493838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e130884e34b9fe8499863c6754aa668b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BillBoard
+--- !u!114 &1312572813245086253
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2040570045036493838}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb59e5b25ff5d94dbcf02e24bfd5a4d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::UsernameDisplay
+  playerPV: {fileID: 7838423181507277369}
+  text: {fileID: 5878268110925097051}
 --- !u!1 &2497077176564364530
 GameObject:
   m_ObjectHideFlags: 0
